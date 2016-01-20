@@ -1,0 +1,113 @@
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.jumbotron {
+	height: 500px;
+	background-image: url(../images/enchanted_sky_fire.jpg);
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 'Helvetica Neue',sans-serif;
+}
+
+.jumbotron p {
+	color: #fff;
+	font-size: 20px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+}
+
+.guides {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.guides h2 {
+	color: #393c3d;
+	font-size: 24px;
+}
+
+.guides p {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+
+.learn-more {
+	background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.learn-more a {
+	color: #00b0ff;
+}
+
+a:hover {
+	color:#00FF00;
+	text-decoration: none;
+}
+
+img {
+	height: 200px;
+	width: 200px; 
+}
+
+div div div div, li {
+	opacity:0.75;
+}
+
+.pull-me{
+    -webkit-box-shadow: 0 0 8px #00ff00;
+    -moz-box-shadow: 0 0 8px #00ff00;
+    box-shadow: 0 0 8px #00ff00;
+    cursor:pointer;
+}
+
+.slide {
+	margin:0;
+	padding:0;
+	border-top:solid 2px #ccff00;
+}
+.pull-me {
+	display:block;
+    position:relative;
+    right:-25px;
+    width:150px;
+    height:20px;
+	font-family:Verdana,sans-serif;
+    font-size:14px;
+    font-style:italic;
+    font-weight:bold;
+	color:#0000ff;
+    background:#ccff00;
+	text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.pull-me p {
+    text-align:center;
+}
