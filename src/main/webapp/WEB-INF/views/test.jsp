@@ -5,13 +5,10 @@
 <title>Metrix: Главная страница</title>
 <link type="text/css" href="<%=request.getContextPath()%>/resources/css/bootstrap.css" rel="stylesheet"/>
 <link type="text/css" href="<%=request.getContextPath()%>/resources/css/main.css" rel="stylesheet"/>
-<link type="text/css" href="<%=request.getContextPath()%>/resources/css/clock.css" rel="stylesheet"/>
 <link rel="shortcut icon" href="<%=request.getContextPath()%>/resources/images/M.ico">
 <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/jquery-2.1.4.min.js">
 </script>
 <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/main.js">
-</script>
-<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/clock.js">
 </script>
 </head>
 <body>
@@ -143,18 +140,6 @@
 </p>
 </div>
 </div>
-</div>
-</div>
-<div class="clock_container">
-<div class="clock">
-<div id="Date"></div>
-  <ul>
-      <li id="hours"></li>
-      <li id="point">:</li>
-      <li id="min"></li>
-      <li id="point">:</li>
-      <li id="sec"></li>
-  </ul>
 </div>
 </div>
 <p>

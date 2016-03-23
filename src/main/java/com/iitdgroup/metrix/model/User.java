@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.NaturalId;
+
 @Entity
 @Table(name="USERS")
 public class User implements Serializable
@@ -23,6 +25,7 @@ public class User implements Serializable
 	@Column(name="ID")
 	private long id;
 	
+	@NaturalId
 	@Column(name="LOGIN")
 	private String login;
 	
